@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popJameniLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jameni_pop_bg_gray">
+
+    <com.jameni.jamenipoplib.view.MaxPopListview
+        android:id="@+id/lvPopList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:visibility="visible" />
+
+</RelativeLayout>

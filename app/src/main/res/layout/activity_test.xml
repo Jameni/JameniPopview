@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="tv1"
+        android:padding="12dp"
+        android:text="down"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="tv2"
+        android:padding="12dp"
+        android:text="animation1"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="tv3"
+        android:padding="12dp"
+        android:text="animation2"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="tv4"
+        android:padding="12dp"
+        android:text="costom"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white" />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="50dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_arrow_dwon" />
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="50dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_arrow_right" />
+
+</LinearLayout>

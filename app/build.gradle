@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+def AAVersion = '4.4.0'
+
 
 android {
     compileSdkVersion 28
@@ -27,5 +29,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     implementation project(':jamenipoplib')
+    //AA快速框架
+    annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
+    implementation "org.androidannotations:androidannotations-api:$AAVersion"
 
 }
