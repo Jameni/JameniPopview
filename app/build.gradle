@@ -23,7 +23,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation project(':jamenipoplib')
+//    implementation project(':jamenipoplib')
+    implementation 'com.github.Jameni:JameniPopview:v1.1.0'
     //AA快速框架
     annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
     implementation "org.androidannotations:androidannotations-api:$AAVersion"
